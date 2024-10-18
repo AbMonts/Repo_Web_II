@@ -1,0 +1,86 @@
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.log
+
+# Entornos virtuales
+env/
+venv/
+ENV/
+VENV/
+env.bak/
+venv.bak/
+
+# Configuraciones de Django
+*.pot
+*.py[cod]
+db.sqlite3
+/static/
+media/
+
+# Archivos de migración de Django (si prefieres no subirlos)
+**/migrations/
+
+# Archivos de configuración local
+*.local
+
+# Archivos de JetBrains/IntelliJ/IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Archivos de Android Studio
+.gradle/
+local.properties
+/.idea/
+.DS_Store
+/build/
+*/build/
+!gradle-wrapper.jar
+/captures/
+*.keystore
+
+# Archivos generados por sistemas de compilación de Android
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.war
+*.ear
+
+# Archivos de configuración de la plataforma
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Archivos de logs
+*.log
+
+# Archivos de Bootstrap local
+/node_modules/
+package-lock.json
+yarn.lock
+
+# Archivos de npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Otros archivos temporales
+*.tmp
+*.temp
+*.cache
+
+# Archivos de compilación de MacOS
+*.DS_Store
+._*
+.Spotlight-V100
+.Trashes
